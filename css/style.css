@@ -1,0 +1,183 @@
+body {
+	background: url(../img/background.jpg);
+	background-size: cover;
+}
+
+header a {
+	color: white
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background: transparent;
+	color: white;
+}
+.login {
+	background-color:  rgba(0, 0, 0, 0.47);
+}
+
+.film, .serial, .tv-show, .cartoon, .movie, .serial2, .user, .settings, .message, .history, .bookmarks, .favorites, .top-series, .top, .top-movie, .recomended {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    -webkit-box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.5);
+	   -moz-box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.5);
+	        box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.5);/*
+    -webkit-box-shadow: 1px 1px 14px -2px rgba(0,0,0,0.75);
+	   -moz-box-shadow: 1px 1px 14px -2px rgba(0,0,0,0.75);
+	        box-shadow: 1px 1px 14px -2px rgba(0,0,0,0.75);*/
+	color: #fff;
+}
+.film {
+    height: 245px;
+}
+.serial {
+	height: 120px;
+}
+img {
+	width: 100%;
+}
+.film-caption, .serial-caption {
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.47);
+	color: white;
+	padding: 5px;
+	
+	
+}
+.film-caption {
+	bottom: 0;
+	width: 100%;
+}
+.serial-caption {
+	width: 100px;
+    height: 100%;
+    right: 0;
+}
+
+.textmain, .serialtext {
+	font-size: 16px;
+}
+.textmain2 {
+	font-size: 12px;
+}
+.serialtext {
+	text-align: center;
+	margin-top: 35%;
+}
+
+.tv-show {
+	background-color: #740fa2;
+	background-image: url(../img/button/tv-show.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+	margin-right: 5px;
+}
+.cartoon {
+	background-color: #10a11a;
+	background-image: url(../img/button/cartoon.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.block p {
+	position: absolute;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.movie {
+	background-color: #b31b1b;
+	background-image: url(../img/button/movie.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.serial2 {
+	background-color: #cc8113;
+	background-image: url(../img/button/serial2.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.user {
+	background-color: #158aa7;
+	background-image: url(../img/button/user.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.settings {
+	background-color: #8a13be;
+	background-image: url(../img/button/settings.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.message {
+	background-color: #cb3d97;
+	background-image: url(../img/button/message.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.history {
+	background-color: #a5a5a5;
+	background-image: url(../img/button/history.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.bookmarks {
+	background-color: #c26f0d;
+	background-image: url(../img/button/bookmarks.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.favorites {
+	background-color: #beae23;
+	background-image: url(../img/button/favorites.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.top-series {
+	background-color: #cc8113;
+	background-image: url(../img/button/top-series.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.top {
+	background-color: #be3590;
+	background-image: url(../img/button/top.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.top-movie {
+	background-color: #b31b1b;
+	background-image: url(../img/button/top-movie.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+.recomended {
+	background-color: #b31b1b;
+	background-image: url(../img/button/recomended.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 165px;
+}
+
+.by {
+	font-size: 12px;
+	color: #fff;
+}

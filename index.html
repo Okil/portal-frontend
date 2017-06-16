@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+
+</head>
+
+<header>
+  	<div class="container" style="padding-top: 10px; ">
+    	<!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Logo</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		    <center>
+			    <form class="navbar-form navbar-left" style="width: 80%;" align="center">
+		        
+			        <div class="form-group" style="width: 80%; ">
+			          <input type="text" class="form-control" placeholder="Поиск" style="width: 100%;">
+			        </div>
+			
+			    </form>
+	        </center>
+		    <ul class="nav navbar-nav navbar-right">
+		        <!-- <li class="login"><a href="#" role="button" >Выйти <span class="caret"></span></a></li> -->
+		        <li class="login"><a  data-toggle="modal" data-target="#login" type="button" role="button">Войти&nbsp;<span class="glyphicon glyphicon-modal-window"></span></a></li>
+		        <!-- Button trigger modal -->
+				
+				<!-- Modal -->
+				<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+					<div class="modal-dialog" role="document">
+				    	<div class="modal-content">
+				    		<div class="modal-body">
+					    		<form action="">
+				                    <legend>Login</legend>
+				                    <div class="form-group">
+				                        <label for="username-email">E-mail or Username</label>
+				                        <input value='' id="username-email" placeholder="E-mail or Username" type="text" class="form-control" />
+				                    </div>
+				                    <div class="form-group">
+				                        <label for="password">Password</label>
+				                        <input id="password" value='' placeholder="Password" type="text" class="form-control" />
+				                    </div>
+				                    <div class="form-group text-center">
+				                        <button class="btn btn-danger btn-cancel-action">Cancel</button>
+				                        <input type="submit" class="btn btn-success btn-login-submit" value="Login" />
+				                    </div>
+	                			</form>  
+                			</div>
+				    	</div>
+				  	</div>
+				</div>
+		    </ul>
+	    </div><!-- /.navbar-collapse -->
+  	</div><!-- /.container-fluid -->
+</header>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="film">
+					<div class="film-caption">
+						<div class="col-md-1">
+							<img style="width: 35px; margin-top: 3px;" src="img/play.png">
+						</div>
+						<div class="col-md-4">
+							<span class="textmain">Живое, 2017</span><br>
+							<span class="textmain2">фантастика, драма</span>
+						</div>
+						<div class="col-md-2 col-md-offset-5">
+							<span class="textmain2" style="line-height: 3;">подробно</span>
+						</div>
+					</div>
+					<img src="img/movie.jpg">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="serial">
+							<div class="serial-caption">
+								<p class="serialtext">Лучшие<br> сериалы</p>
+							</div>
+							<img src="img/serial.jpg">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="block tv-show">
+							<center><p>Передача и шоу</p></center>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="block cartoon">
+							<center><p>Мультики</p></center>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="row">
+					<div class="block movie">
+						<center><p>Фильмы</p></center>
+					</div>
+				</div>
+				<div class="row">
+					<div class="block serial2">
+						<center><p>Сериалы</p></center>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-md-6">
+				<div class="account-field">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="block user">
+								<center><p>Мой аккаунт</p></center>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="block settings">
+								<center><p>Настройки</p></center>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="block message">
+								<center><p>Сообщения</p></center>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="block history">
+								<center><p>Мои истории</p></center>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="block bookmarks">
+								<center><p>Мои закладки</p></center>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="block favorites">
+								<center><p>Избранное</p></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="film" style="height: 250px">
+					<div class="film-caption">
+						<div class="col-md-4">
+							<span class="textmain">Скоро</span><br>
+						</div>
+					</div>
+					<img style="width: 100%; height: 100%;" src="img/cover.jpg">
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="row">
+					<div class="block top-series" style="margin-left: 16px;">
+						<center><p>ТОП сериалы</p></center>
+					</div>
+				</div>
+				<div class="row">
+					<div class="block top" style="margin-left: 16px;">
+						<center><p>Подборки</p></center>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="row">
+					<div class="block top-movie">
+						<center><p>ТОП фильмы</p></center>
+					</div>
+				</div>
+				<div class="row">
+					<div class="block recomended">
+						<center><p>Рекомендуем</p></center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<br>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<p class="by">Copyright© Media Content Site - 2017. All Rights Reserved. Designed by RJBNC Artwork</p>
+			</div>
+			<div class="col-md-2 col-md-offset-4">
+				
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>
